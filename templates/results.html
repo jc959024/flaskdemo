@@ -2,7 +2,10 @@
 {% block title %}Wikipedia Results{% endblock %}
 {% block content %}
 {% if page %}
-{#    TODO: add page title and more... #}
+<h2>{{ title }}</h2>
+<p>{{ summary }}</p>
+<a href="{{ url }}">{{ url }}</a>
+
 
   <h2>Summary </h2>
     <p>{{ page.summary }}</p>
